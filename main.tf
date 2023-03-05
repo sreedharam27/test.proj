@@ -19,7 +19,7 @@ chkconfig httpd on
 echo "hai all this is my website created by terraform infrastructurte by mounika varma server-1" > /var/www/html/index.html
 EOF
   tags = {
-  Name = "server-1"
+  Name = "myserver-1"
   }
 }
     
@@ -38,6 +38,6 @@ resource "aws_instance" "two" {
   echo "hai all this is my website created by terraform infrastructurte by mounika varma server-2" > /var/www/html/index.html
  EOF
   tags = {
-  Name = "server-2"
+  Name = "myserver-2"
   }
 }
